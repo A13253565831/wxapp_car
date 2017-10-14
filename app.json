@@ -1,0 +1,64 @@
+{
+  "pages":[
+    "pages/car/home/home",
+    "pages/car/home/video/video",
+    "pages/car/appoint/appoint",
+    "pages/car/appoint/appointItem/appointItem",
+    "pages/car/article/article",
+    "pages/car/article/articleD/articleD",
+    "pages/car/galler/galler",
+    "pages/car/galler/gallerItem/gallerItem",
+    "pages/car/galler/gallerD/gallerD",
+    "pages/car/news/news",
+    "pages/car/news/newsItem/newsItem",
+    "pages/car/news/newsD/newsD",
+    "pages/car/cartoon/cartoon",
+    "pages/car/cartoon/cartoonD/cartoonD",
+    "pages/car/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#D83A88",
+    "navigationBarTitleText": "第二次测试小程序0000",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "white",
+    "color": "gray",
+    "selectedColor": "#D83A88",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/car/home/home",
+        "text": "首页",
+        "iconPath": "images/tabbar/h.png",
+        "selectedIconPath": "images/tabbar/h1.png"
+      },
+      {
+        "pagePath": "pages/car/appoint/appoint",
+        "text": "预约",
+        "iconPath": "images/tabbar/y.png",
+        "selectedIconPath": "images/tabbar/y1.png"
+      },
+      {
+        "pagePath": "pages/car/galler/galler",
+        "text": "浏览",
+        "iconPath": "images/tabbar/t.png",
+        "selectedIconPath": "images/tabbar/t1.png"
+      },
+      {
+        "pagePath": "pages/car/news/news",
+        "text": "资讯",
+        "iconPath": "images/tabbar/z.png",
+        "selectedIconPath": "images/tabbar/z1.png"
+      },
+      {
+        "pagePath": "pages/car/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tabbar/w.png",
+        "selectedIconPath": "images/tabbar/w1.png"
+      }
+    ]
+  }
+}

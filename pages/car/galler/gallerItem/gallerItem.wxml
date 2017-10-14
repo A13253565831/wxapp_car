@@ -1,0 +1,24 @@
+<view class="car_box">
+  <view class="recommond_car">
+    <image src="../../../../images/nav/left.png"></image>
+      <view class="recommond_car_cont">
+        <text>车型展示</text>
+      </view>
+    </view>
+    <view class="recommond_car_image">
+        <view class="recommond_car_title">
+          <view class="recommond_car_view" wx:for-items="{{recommond}}">
+            <view class="recommond_car_image" data-id="{{item.id}}" bindtap="bindDetail">
+             <image src="{{item.img}}"></image>
+            </view>
+            <view class="recommond_car_text">
+             <text>{{item.name}}</text>
+            </view>
+            <view class="recommond_car_text">
+             <text>{{item.bmoney}}万 -- </text>
+             <text>{{item.emoney}}万</text>
+            </view>
+          </view>
+        </view>
+</view>
+</view>

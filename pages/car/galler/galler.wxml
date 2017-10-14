@@ -1,0 +1,22 @@
+
+<view class="total_car">
+  <view class="total_car_flex">
+   <view class="total_car_view" wx:for="{{carSystem}}" wx:for-item="ind">
+     <view class="backg_white">
+      <view class="total_car_image" bindtap="bindTotal" data-id="{{ind.id}}">
+      <image src="{{ind.img}}"></image>
+     </view>
+     <view class="total_car_title">
+      <text>{{ind.name}}</text>
+     </view>
+     <view class="total_car_intro">
+      <text>{{ind.info}}</text>
+     </view>
+     </view>
+   </view>
+  </view>
+</view>
+
+
+
+

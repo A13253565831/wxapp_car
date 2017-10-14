@@ -1,0 +1,39 @@
+.carbook_detail {
+  width:100%;
+  background: #f3eff1;
+}
+.carbook_for{
+  display: flex;
+  flex-direction: column;
+}
+.carbook_for image {
+  width: 100%;
+  height: 200px;
+}
+.carbook_title {
+  margin-top: 10px;
+  background: white;
+  padding-left: 10px;
+  text-align: center;
+  padding-top: 10rpx;
+}
+.carbook_intro {
+  background: white;
+  /* height: 60px;   */
+  font-size: 32rpx;
+  padding: 10px 10px 10rpx 10px;
+  letter-spacing: 1px;
+}
+.carbook_cont {
+  background: white;
+  font-size: 32rpx;
+  letter-spacing: 2px;
+  margin-top: 10rpx;
+}
+.wxParse-p{
+  padding: 10rpx 20rpx;
+  line-height: 40rpx;
+}
+element.style{
+  width: 95%;
+}

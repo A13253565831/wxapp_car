@@ -1,0 +1,30 @@
+/* pages/weiyunyi/home/video/video.wxss */
+.rqxm {
+  width: 95%;
+  margin: 30rpx auto;
+}
+
+.video {
+  width: 100%;
+}
+.myVideo {
+  width: 100%;
+  margin-top: 20rpx;
+}
+.headerRight {
+  padding: 20rpx 0;
+}
+.headerName {
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.headerTime {
+  display: block;
+  font-size: 24rpx;
+  color: gray;
+
+}
+.border {
+  margin-top: 10rpx;
+  border-bottom:1px solid gray;
+}

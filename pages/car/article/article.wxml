@@ -1,0 +1,13 @@
+<view class="newsItem_box">
+ <view class="newsItem_flex">
+  <view class="newsItem_for" wx:for="{{articleTwo}}" bindtap="bindViewD" data-id="{{item.id}}">
+    <image src="{{item.img}}"></image>
+    <view class="newsItem_cont">
+     <text>{{item.title}}</text>
+     <view class="news_text">
+      <text>{{item.text}}</text>
+     </view>
+    </view>
+  </view>
+ </view>
+</view>

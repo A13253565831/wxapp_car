@@ -1,0 +1,23 @@
+<import src="../../../../wxParse/wxParse.wxml"/>
+ <view class="cont">
+ <view class="article_detail_title">
+        <image src="{{artD.img}}"></image>
+     </view>
+     
+  <view class="article_detail">
+    <view class="article_main_cont">
+      <view class="article_title">
+      <text>{{artD.name}}</text>
+    </view>
+    <view class="article_intro">
+      <text>{{artD.bmoney}}万 -- </text>
+      <text>{{artD.emoney}}万</text>
+    </view>
+    <view class="article_detail">
+    <template is="wxParse" data="{{wxParseData: arta.nodes}}">
+      <text>{{artD.details}}</text>
+      </template>
+    </view>
+    </view>
+    </view>
+ </view>

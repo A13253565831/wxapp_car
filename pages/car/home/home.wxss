@@ -1,0 +1,143 @@
+@import "../../../style/swiper.wxss";
+
+.contain{
+   background: #f3eff1;
+}
+
+.type_cont {
+  margin-top: 5rpx;
+ 
+}
+.type_flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: white;
+  padding: 10px;
+  justify-content: space-between;
+}
+.type_for {
+  width: 160rpx;
+  height: 105px;
+  text-align: center;
+  color: #696969;
+  
+}
+
+.type_for image {
+  width: 100%;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.type_cont_text {
+  font-size: 30rpx;
+  padding-top: 5px;
+}
+
+
+.recommond_nav {
+  margin-top: 7px;
+  background: white;
+  padding: 10px;
+  font-size: 36rpx;
+}
+
+.recommond_cont{
+  background: white;
+  padding-bottom: 5rpx;
+}
+.recommond_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.recommond_for {
+  width:45%;
+  height: 240rpx;
+}
+.recommond_for:nth-child(3){
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.recommond_for:nth-child(4){
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.recommond_for>image {
+  width: 100%;
+  height: 100%;
+}
+.recommond_name {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ color: #696969;
+}
+
+.recommond_right {
+  width: 80rpx;
+  height: 30rpx;
+}
+.recommond_right image{
+  width: 100%;
+  height: 100%;
+}
+.recommond_left{
+  font-size: 30rpx;
+}
+
+.rqxm {
+  width: 95%;
+  margin: 30rpx auto;
+  font-size: 0;
+}
+.title {
+  font-size: 14px;
+  overflow:hidden;
+  font-weight: bloder;
+}
+.xueyuan_top_left {
+  float:left;
+  color:gray;
+  font-size:30rpx;
+  font-weight:bloder;
+  border-left:6rpx solid #D83A88;
+
+}
+
+.xueyuan_top_right {
+float:right;
+color:gray;
+font-size:30rpx;
+font-weight:bloder;
+
+}
+.video {
+  width: 100%;
+}
+.myVideo {
+  width: 100%;
+  margin-top: 20rpx;
+}
+.headerRight {
+  padding: 20rpx 0;
+}
+.headerName {
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.headerTime {
+  display: block;
+  font-size: 24rpx;
+  color: gray;
+
+}
+.border {
+  margin-top: 10rpx;
+  border-bottom:1px solid gray;
+}
+
+

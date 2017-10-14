@@ -1,0 +1,53 @@
+.car_box{
+  /*background: #DCDCDC;*/
+}
+.recommond_car {
+  padding-top: 10px;
+  background: #696969;
+  padding-bottom: 10px;
+}
+.recommond_car image{
+  float: left;
+  margin-right: 10px;
+  width: 4px;
+  height: 25px;
+}
+.recommond_car_cont {
+  font-size: 16px;
+  color: #2FBAFD;
+  font-weight: bolder;
+}
+.recommond_car_cont text {
+  display: inline-block;
+  height: 25px;
+  line-height:25px;
+}
+.recommond_car_image{
+  padding: 5px 10px;
+}
+.recommond_car_title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.recommond_car_view{
+  width: 350rpx;
+  height: 355rpx;
+}
+
+.recommond_car_view image {
+  width: 100%;
+  height: 120px;
+}
+.recommond_car_text {
+  font-size: 15px;
+  text-align: center;
+  color: #696969;
+}
+.recommond_car_text:nth-child(3){
+  color: red;
+  font-size: 13px;
+  
+}

@@ -1,0 +1,39 @@
+.gallery_container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+}
+.galler_title {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+
+.galler_big_image{
+  width: 100%;
+  /*height: 100%;*/
+}
+.galler_footer {
+  width: 100%; 
+  height: 380rpx;
+  position: absolute;
+  bottom: 0;
+  background: #222222;
+  
+}
+.galler_footer text {
+  color: aliceblue;
+
+}
+.galler_intro{
+  margin-top: 10rpx;
+  padding: 0 20rpx;
+  
+}
+.galler_name{
+  line-height:40rpx;
+  font-size: 30rpx;
+}

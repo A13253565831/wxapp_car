@@ -1,0 +1,37 @@
+.cont {
+  background: lightgray;
+}
+.article_detail_title {
+  width: 100%;
+  height: 450rpx;
+}
+.article_detail_title image{
+  width: 100%;
+  height: 100%;
+}
+.article_detail {
+  width: 100%;
+}
+.article_main_cont {
+  /* margin-top: 10px; */
+}
+.article_title {
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 15rpx 20rpx;
+  background: white;
+}
+.article_intro{
+  font-size: 14px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  background: white;
+  padding: 15rpx 20rpx;
+}
+.wxParse-p{
+  font-size:32rpx;
+  line-height: 45rpx;
+  margin-top: 10rpx;
+  background: white;
+  padding: 10rpx 20rpx;
+}

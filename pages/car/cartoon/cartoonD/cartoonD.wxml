@@ -1,0 +1,15 @@
+
+
+ <view class="gallery_container" style="height:{{height}}px;width:{{width}}px;background: #24B2FA;">
+  <view class="galler_title"> 
+    <image src="{{galler.picurl}}" class="galler_big_image" mode="aspectFit"></image>
+  </view>
+  <view class="galler_footer">
+    <view class="galler_intro">
+    <text>{{galler.name}}</text>
+     <view class="galler_name">
+     <text>{{galler.info}}</text>
+     </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<!--pages/weiyunyi/home/video/video.wxml-->
+  <view class="rqxm">
+    <view class="video" wx:for="{{videoList}}">
+       <view class="headerRight">
+          <text class="headerName">{{item.video_name}}</text>
+          <text class="headerTime">{{item.addtime}}</text>
+      </view>
+      <video class="myVideo"  src="{{item.video_url}}"  controls="controls"  poster="{{item.img}}"></video>
+      <view class="border"></view>
+    </view>
+  </view>
